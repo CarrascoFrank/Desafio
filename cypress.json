@@ -1,1 +1,9 @@
-{}
+{
+  "baseUrl": "http://challengeqa.staging.devmuch.io",
+  "video": false,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "projectId": "h3gfaq"
+}
