@@ -2,7 +2,7 @@ import * as getPositiveNumber from '../requests/GETPositiveNumberPT.request';
 import * as getNoNullNumber from '../requests/GETNumberNotNullPT.request';
 import * as getLimitNumberPositive from '../requests/GETLimitNumberPositivePT.request';
 
-describe("Cenarios de teste com valores positivos", () => {
+describe("Cenarios de teste com valores positivos em portugues", () => {
   it('Verificando que o retorno da chamanda não seja valor null', () => {
     getNoNullNumber.NotNullNumber().should((response)=>{
       expect(response.status).to.eq(200)
