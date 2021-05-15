@@ -1,6 +1,6 @@
 import * as getPropertyBodyEN from '../requests/GETPropertyBodyEN.request';
 
-describe("Cenarios de teste para as propriedades do body do request", () => {
+describe("Cenarios de teste para as propriedades do body do request em ingles", () => {
   it('Verificando que o retorno da chamanda a propridade do body', () => {
     getPropertyBodyEN.getPropertyBodyEN().should((response)=>{
       expect(response.status).to.eq(200)
