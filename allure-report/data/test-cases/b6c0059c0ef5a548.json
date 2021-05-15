@@ -1,0 +1,74 @@
+{
+  "uid" : "b6c0059c0ef5a548",
+  "name" : "Verificando o numero limite positivo",
+  "fullName" : "Verificando o numero limite positivo",
+  "historyId" : "5822b86fbeed56430d59b15b1b28a1fd",
+  "time" : {
+    "start" : 1621094011104,
+    "stop" : 1621094012250,
+    "duration" : 1146
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 'ten thousand' to equal 'dez mil'",
+  "statusTrace" : "AssertionError: expected 'ten thousand' to equal 'dez mil'\n    at Context.eval (http://challengeqa.staging.devmuch.io/__cypress/tests?p=cypress/integration/services/NumbersPT/tests/GETPositiveNumberPT.spec.js:203:43)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'ten thousand' to equal 'dez mil'",
+    "statusTrace" : "AssertionError: expected 'ten thousand' to equal 'dez mil'\n    at Context.eval (http://challengeqa.staging.devmuch.io/__cypress/tests?p=cypress/integration/services/NumbersPT/tests/GETPositiveNumberPT.spec.js:203:43)",
+    "steps" : [ {
+      "name" : "request (\"[object Object]\")",
+      "time" : {
+        "start" : 1621094011120,
+        "stop" : 1621094011562,
+        "duration" : 442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6e7596eafc3da318",
+      "name" : "services/NumbersPT/tests/GETPositiveNumberPT.spec.js:2021-05-15T15:53:31.587Z",
+      "source" : "6e7596eafc3da318.png",
+      "type" : "image/png",
+      "size" : 152907
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cenarios de teste com valores positivos em portugues"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b6c0059c0ef5a548.json",
+  "parameterValues" : [ ]
+}

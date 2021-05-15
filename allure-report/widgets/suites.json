@@ -1,0 +1,92 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "c244cc6a4f51a53c4471e0d3257f5ca2",
+    "name" : "Cenarios de teste com valores invalidos na rota /EN",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "fb4f53a6eb5a94914451bdc30999db45",
+    "name" : "Cenarios de teste com valor negativo em ingles",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "ec38f8aaa5eb92d97333617f648fa7b7",
+    "name" : "Cenarios de teste com valores positivos em portugues",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "0fa6d8fe0bae1f39cff2663a94820034",
+    "name" : "Cenarios de teste com valores positivos em Ingles",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "f887bbc7d0f6a847ec352af792ba6646",
+    "name" : "Cenarios de teste com valores invalidos na rota /",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "89532a07b083589ee92808cbae061456",
+    "name" : "Cenarios de teste com valor negativo em portugues",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "494c0e708bf2beb14c5c2da747db37d9",
+    "name" : "Cenarios de teste para as propriedades do body do request em ingles",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "17a552b8dd691ac6c80f551649185362",
+    "name" : "Cenarios de teste para as propriedades do body do requestem portugues",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

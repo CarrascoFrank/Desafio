@@ -1,0 +1,60 @@
+{
+  "uid" : "c1830d7d3553b1c9",
+  "name" : "Verificando que o retorno da chamanda não seja valor null",
+  "fullName" : "Verificando que o retorno da chamanda não seja valor null",
+  "historyId" : "7b5061bbd57415b860b465f370b01068",
+  "time" : {
+    "start" : 1621093979166,
+    "stop" : 1621093979812,
+    "duration" : 646
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "request (\"[object Object]\")",
+      "time" : {
+        "start" : 1621093979321,
+        "stop" : 1621093979803,
+        "duration" : 482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cenarios de teste com valores positivos em Ingles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1830d7d3553b1c9.json",
+  "parameterValues" : [ ]
+}

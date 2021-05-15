@@ -1,0 +1,74 @@
+{
+  "uid" : "8a412680c29910b1",
+  "name" : "Verificando o numero limite negativo com a propriedade full",
+  "fullName" : "Verificando o numero limite negativo com a propriedade full",
+  "historyId" : "0407f97f190a094e9923ae96ec864dd3",
+  "time" : {
+    "start" : 1621093967700,
+    "stop" : 1621093968851,
+    "duration" : 1151
+  },
+  "status" : "failed",
+  "statusMessage" : "expected undefined to equal 'minus ten thousand'",
+  "statusTrace" : "AssertionError: expected undefined to equal 'minus ten thousand'\n    at Context.eval (http://challengeqa.staging.devmuch.io/__cypress/tests?p=cypress/integration/services/NumbersEN/tests/GETNegativeNumberEN.spec.js:169:40)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected undefined to equal 'minus ten thousand'",
+    "statusTrace" : "AssertionError: expected undefined to equal 'minus ten thousand'\n    at Context.eval (http://challengeqa.staging.devmuch.io/__cypress/tests?p=cypress/integration/services/NumbersEN/tests/GETNegativeNumberEN.spec.js:169:40)",
+    "steps" : [ {
+      "name" : "request (\"[object Object]\")",
+      "time" : {
+        "start" : 1621093967713,
+        "stop" : 1621093968158,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "27c5cb3d8bdef356",
+      "name" : "services/NumbersEN/tests/GETNegativeNumberEN.spec.js:2021-05-15T15:52:48.182Z",
+      "source" : "27c5cb3d8bdef356.png",
+      "type" : "image/png",
+      "size" : 154064
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cenarios de teste com valor negativo em ingles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8a412680c29910b1.json",
+  "parameterValues" : [ ]
+}

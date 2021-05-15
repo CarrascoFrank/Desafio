@@ -1,0 +1,60 @@
+{
+  "uid" : "516bb0f1c38c7b56",
+  "name" : "Verificando que o numero negativo venha por extenso",
+  "fullName" : "Verificando que o numero negativo venha por extenso",
+  "historyId" : "485c80106fb3ffafd4b9d9bfbf7feb7d",
+  "time" : {
+    "start" : 1621094003185,
+    "stop" : 1621094003755,
+    "duration" : 570
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "request (\"[object Object]\")",
+      "time" : {
+        "start" : 1621094003279,
+        "stop" : 1621094003741,
+        "duration" : 462
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cenarios de teste com valor negativo em portugues"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "516bb0f1c38c7b56.json",
+  "parameterValues" : [ ]
+}

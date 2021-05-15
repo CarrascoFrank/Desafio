@@ -1,0 +1,211 @@
+[ {
+  "uid" : "27c71efa6a8908be",
+  "name" : "Verificando o numero limite negativo",
+  "time" : {
+    "start" : 1621094003765,
+    "stop" : 1621094004223,
+    "duration" : 458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "295823c1b5abfc0f",
+  "name" : "Verificando o numero limite positivo",
+  "time" : {
+    "start" : 1621093980295,
+    "stop" : 1621093980813,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c90212cacbc22e7",
+  "name" : "Verificando que o retorno da chamanda a propridade do body",
+  "time" : {
+    "start" : 1621093982776,
+    "stop" : 1621093983506,
+    "duration" : 730
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a412680c29910b1",
+  "name" : "Verificando o numero limite negativo com a propriedade full",
+  "time" : {
+    "start" : 1621093967700,
+    "stop" : 1621093968851,
+    "duration" : 1151
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a9c14ccd23ef5f2",
+  "name" : "Verificando o envio de numero negativo fora do alcance com retorno de dado invalido com status code [400]",
+  "time" : {
+    "start" : 1621093973386,
+    "stop" : 1621093974697,
+    "duration" : 1311
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c6fad79d4bb3d69",
+  "name" : "Verificando que o numero negativo venha por extenso",
+  "time" : {
+    "start" : 1621093966772,
+    "stop" : 1621093967696,
+    "duration" : 924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccdb4f13fb54f0d",
+  "name" : "Verificando o envio de numero negativo fora do alcance com retorno de dado invalido",
+  "time" : {
+    "start" : 1621094007345,
+    "stop" : 1621094007802,
+    "duration" : 457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17b0b52fd19f1445",
+  "name" : "Verificando o envio de numero positivo fora do alcance com retorno de dado invalido [401]",
+  "time" : {
+    "start" : 1621093974724,
+    "stop" : 1621093975224,
+    "duration" : 500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6c0059c0ef5a548",
+  "name" : "Verificando o numero limite positivo",
+  "time" : {
+    "start" : 1621094011104,
+    "stop" : 1621094012250,
+    "duration" : 1146
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdc3d05138e91b13",
+  "name" : "Verificando que o numero positivo venha por extenso",
+  "time" : {
+    "start" : 1621093979816,
+    "stop" : 1621093980292,
+    "duration" : 476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1830d7d3553b1c9",
+  "name" : "Verificando que o retorno da chamanda não seja valor null",
+  "time" : {
+    "start" : 1621093979166,
+    "stop" : 1621093979812,
+    "duration" : 646
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa0f75af6d0890ee",
+  "name" : "Verificando o envio de caracteres com retorno de dado invalido ",
+  "time" : {
+    "start" : 1621093972036,
+    "stop" : 1621093972833,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9a0b7226fedfca7",
+  "name" : "Verificando que o retorno da chamanda não seja valor null",
+  "time" : {
+    "start" : 1621094010114,
+    "stop" : 1621094010627,
+    "duration" : 513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "895ccc189030fd11",
+  "name" : "Verificando o envio de numero negativo fora do alcance com retorno de dado invalido [401]",
+  "time" : {
+    "start" : 1621093972837,
+    "stop" : 1621093973334,
+    "duration" : 497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a43c0e8744e8183",
+  "name" : "Verificando o envio de numero positivo fora do alcance com retorno de dado invalido com status code [400]",
+  "time" : {
+    "start" : 1621093975234,
+    "stop" : 1621093976384,
+    "duration" : 1150
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7b7eee5a1f5501f",
+  "name" : "Verificando que o numero positivo venha por extenso",
+  "time" : {
+    "start" : 1621094010633,
+    "stop" : 1621094011101,
+    "duration" : 468
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd0d71f83fc741f2",
+  "name" : "Verificando o numero limite negativo sem a propriedade full",
+  "time" : {
+    "start" : 1621093968876,
+    "stop" : 1621093969604,
+    "duration" : 728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "516bb0f1c38c7b56",
+  "name" : "Verificando que o numero negativo venha por extenso",
+  "time" : {
+    "start" : 1621094003185,
+    "stop" : 1621094003755,
+    "duration" : 570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1de0a3ab078375d7",
+  "name" : "Verificando o envio de numero positivo fora do alcance com retorno de dado invalido",
+  "time" : {
+    "start" : 1621094006885,
+    "stop" : 1621094007342,
+    "duration" : 457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c12999159a91eab",
+  "name" : "Verificando o envio de caracteres com retorno de dado invalido (401)",
+  "time" : {
+    "start" : 1621094006308,
+    "stop" : 1621094006880,
+    "duration" : 572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1673bfdf805fdb3",
+  "name" : "Verificando que o retorno da chamanda a propridade do body",
+  "time" : {
+    "start" : 1621094014286,
+    "stop" : 1621094014885,
+    "duration" : 599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

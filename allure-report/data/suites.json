@@ -1,0 +1,310 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Cenarios de teste com valor negativo em ingles",
+    "children" : [ {
+      "name" : "Verificando que o numero negativo venha por extenso",
+      "uid" : "4c6fad79d4bb3d69",
+      "parentUid" : "fb4f53a6eb5a94914451bdc30999db45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621093966772,
+        "stop" : 1621093967696,
+        "duration" : 924
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o numero limite negativo com a propriedade full",
+      "uid" : "8a412680c29910b1",
+      "parentUid" : "fb4f53a6eb5a94914451bdc30999db45",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621093967700,
+        "stop" : 1621093968851,
+        "duration" : 1151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o numero limite negativo sem a propriedade full",
+      "uid" : "fd0d71f83fc741f2",
+      "parentUid" : "fb4f53a6eb5a94914451bdc30999db45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621093968876,
+        "stop" : 1621093969604,
+        "duration" : 728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fb4f53a6eb5a94914451bdc30999db45"
+  }, {
+    "name" : "Cenarios de teste com valores invalidos na rota /EN",
+    "children" : [ {
+      "name" : "Verificando o envio de caracteres com retorno de dado invalido ",
+      "uid" : "fa0f75af6d0890ee",
+      "parentUid" : "c244cc6a4f51a53c4471e0d3257f5ca2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621093972036,
+        "stop" : 1621093972833,
+        "duration" : 797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o envio de numero negativo fora do alcance com retorno de dado invalido [401]",
+      "uid" : "895ccc189030fd11",
+      "parentUid" : "c244cc6a4f51a53c4471e0d3257f5ca2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621093972837,
+        "stop" : 1621093973334,
+        "duration" : 497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o envio de numero negativo fora do alcance com retorno de dado invalido com status code [400]",
+      "uid" : "6a9c14ccd23ef5f2",
+      "parentUid" : "c244cc6a4f51a53c4471e0d3257f5ca2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621093973386,
+        "stop" : 1621093974697,
+        "duration" : 1311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o envio de numero positivo fora do alcance com retorno de dado invalido [401]",
+      "uid" : "17b0b52fd19f1445",
+      "parentUid" : "c244cc6a4f51a53c4471e0d3257f5ca2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621093974724,
+        "stop" : 1621093975224,
+        "duration" : 500
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o envio de numero positivo fora do alcance com retorno de dado invalido com status code [400]",
+      "uid" : "3a43c0e8744e8183",
+      "parentUid" : "c244cc6a4f51a53c4471e0d3257f5ca2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621093975234,
+        "stop" : 1621093976384,
+        "duration" : 1150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c244cc6a4f51a53c4471e0d3257f5ca2"
+  }, {
+    "name" : "Cenarios de teste com valores positivos em Ingles",
+    "children" : [ {
+      "name" : "Verificando que o retorno da chamanda não seja valor null",
+      "uid" : "c1830d7d3553b1c9",
+      "parentUid" : "0fa6d8fe0bae1f39cff2663a94820034",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621093979166,
+        "stop" : 1621093979812,
+        "duration" : 646
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando que o numero positivo venha por extenso",
+      "uid" : "bdc3d05138e91b13",
+      "parentUid" : "0fa6d8fe0bae1f39cff2663a94820034",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621093979816,
+        "stop" : 1621093980292,
+        "duration" : 476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o numero limite positivo",
+      "uid" : "295823c1b5abfc0f",
+      "parentUid" : "0fa6d8fe0bae1f39cff2663a94820034",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621093980295,
+        "stop" : 1621093980813,
+        "duration" : 518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0fa6d8fe0bae1f39cff2663a94820034"
+  }, {
+    "name" : "Cenarios de teste para as propriedades do body do request em ingles",
+    "children" : [ {
+      "name" : "Verificando que o retorno da chamanda a propridade do body",
+      "uid" : "5c90212cacbc22e7",
+      "parentUid" : "494c0e708bf2beb14c5c2da747db37d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621093982776,
+        "stop" : 1621093983506,
+        "duration" : 730
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "494c0e708bf2beb14c5c2da747db37d9"
+  }, {
+    "name" : "Cenarios de teste com valor negativo em portugues",
+    "children" : [ {
+      "name" : "Verificando que o numero negativo venha por extenso",
+      "uid" : "516bb0f1c38c7b56",
+      "parentUid" : "89532a07b083589ee92808cbae061456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621094003185,
+        "stop" : 1621094003755,
+        "duration" : 570
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o numero limite negativo",
+      "uid" : "27c71efa6a8908be",
+      "parentUid" : "89532a07b083589ee92808cbae061456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621094003765,
+        "stop" : 1621094004223,
+        "duration" : 458
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "89532a07b083589ee92808cbae061456"
+  }, {
+    "name" : "Cenarios de teste com valores invalidos na rota /",
+    "children" : [ {
+      "name" : "Verificando o envio de caracteres com retorno de dado invalido (401)",
+      "uid" : "5c12999159a91eab",
+      "parentUid" : "f887bbc7d0f6a847ec352af792ba6646",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621094006308,
+        "stop" : 1621094006880,
+        "duration" : 572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o envio de numero positivo fora do alcance com retorno de dado invalido",
+      "uid" : "1de0a3ab078375d7",
+      "parentUid" : "f887bbc7d0f6a847ec352af792ba6646",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621094006885,
+        "stop" : 1621094007342,
+        "duration" : 457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o envio de numero negativo fora do alcance com retorno de dado invalido",
+      "uid" : "ccdb4f13fb54f0d",
+      "parentUid" : "f887bbc7d0f6a847ec352af792ba6646",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621094007345,
+        "stop" : 1621094007802,
+        "duration" : 457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f887bbc7d0f6a847ec352af792ba6646"
+  }, {
+    "name" : "Cenarios de teste com valores positivos em portugues",
+    "children" : [ {
+      "name" : "Verificando que o retorno da chamanda não seja valor null",
+      "uid" : "b9a0b7226fedfca7",
+      "parentUid" : "ec38f8aaa5eb92d97333617f648fa7b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621094010114,
+        "stop" : 1621094010627,
+        "duration" : 513
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando que o numero positivo venha por extenso",
+      "uid" : "f7b7eee5a1f5501f",
+      "parentUid" : "ec38f8aaa5eb92d97333617f648fa7b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621094010633,
+        "stop" : 1621094011101,
+        "duration" : 468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verificando o numero limite positivo",
+      "uid" : "b6c0059c0ef5a548",
+      "parentUid" : "ec38f8aaa5eb92d97333617f648fa7b7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621094011104,
+        "stop" : 1621094012250,
+        "duration" : 1146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ec38f8aaa5eb92d97333617f648fa7b7"
+  }, {
+    "name" : "Cenarios de teste para as propriedades do body do requestem portugues",
+    "children" : [ {
+      "name" : "Verificando que o retorno da chamanda a propridade do body",
+      "uid" : "1673bfdf805fdb3",
+      "parentUid" : "17a552b8dd691ac6c80f551649185362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621094014286,
+        "stop" : 1621094014885,
+        "duration" : 599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "17a552b8dd691ac6c80f551649185362"
+  } ]
+}

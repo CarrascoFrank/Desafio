@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected undefined to equal 'minus ten thousand'",
+      "children" : [ {
+        "name" : "Verificando o numero limite negativo com a propriedade full",
+        "uid" : "8a412680c29910b1",
+        "parentUid" : "040b828fffb5235c6d6113b73b520863",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621093967700,
+          "stop" : 1621093968851,
+          "duration" : 1151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "040b828fffb5235c6d6113b73b520863"
+    }, {
+      "name" : "expected 401 to equal 400",
+      "children" : [ {
+        "name" : "Verificando o envio de numero negativo fora do alcance com retorno de dado invalido com status code [400]",
+        "uid" : "6a9c14ccd23ef5f2",
+        "parentUid" : "9c8e59f046fa7bf1cb952198450c636b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621093973386,
+          "stop" : 1621093974697,
+          "duration" : 1311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verificando o envio de numero positivo fora do alcance com retorno de dado invalido com status code [400]",
+        "uid" : "3a43c0e8744e8183",
+        "parentUid" : "9c8e59f046fa7bf1cb952198450c636b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621093975234,
+          "stop" : 1621093976384,
+          "duration" : 1150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c8e59f046fa7bf1cb952198450c636b"
+    }, {
+      "name" : "expected 'ten thousand' to equal 'dez mil'",
+      "children" : [ {
+        "name" : "Verificando o numero limite positivo",
+        "uid" : "b6c0059c0ef5a548",
+        "parentUid" : "ae8f5a68514f01420264949cd4065ca6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621094011104,
+          "stop" : 1621094012250,
+          "duration" : 1146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae8f5a68514f01420264949cd4065ca6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

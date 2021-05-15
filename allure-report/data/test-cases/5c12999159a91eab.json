@@ -1,0 +1,60 @@
+{
+  "uid" : "5c12999159a91eab",
+  "name" : "Verificando o envio de caracteres com retorno de dado invalido (401)",
+  "fullName" : "Verificando o envio de caracteres com retorno de dado invalido (401)",
+  "historyId" : "8d1a2f0cf9ddf90540bc29798eca8c89",
+  "time" : {
+    "start" : 1621094006308,
+    "stop" : 1621094006880,
+    "duration" : 572
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "request (\"[object Object]\")",
+      "time" : {
+        "start" : 1621094006425,
+        "stop" : 1621094006871,
+        "duration" : 446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cenarios de teste com valores invalidos na rota /"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c12999159a91eab.json",
+  "parameterValues" : [ ]
+}

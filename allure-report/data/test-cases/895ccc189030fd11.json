@@ -1,0 +1,60 @@
+{
+  "uid" : "895ccc189030fd11",
+  "name" : "Verificando o envio de numero negativo fora do alcance com retorno de dado invalido [401]",
+  "fullName" : "Verificando o envio de numero negativo fora do alcance com retorno de dado invalido [401]",
+  "historyId" : "672c624c7e9f0b48c9a58d47d355af7c",
+  "time" : {
+    "start" : 1621093972837,
+    "stop" : 1621093973334,
+    "duration" : 497
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "request (\"[object Object]\")",
+      "time" : {
+        "start" : 1621093972856,
+        "stop" : 1621093973325,
+        "duration" : 469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cenarios de teste com valores invalidos na rota /EN"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "895ccc189030fd11.json",
+  "parameterValues" : [ ]
+}
