@@ -1,15 +1,20 @@
 {
   "name": "cypress-deliverymuch",
   "version": "1.0.0",
-  "description": "",
+  "description": "Desafio Delivery Much",
   "main": "index.js",
   "scripts": {
+    "cy:run":"cypress run --config video=false --env allure=true",
+    "allure:generate": "allure generate allure-results",
+    "allure:open": "allure open allure-report",
+    "allure:clean": "rm -r allure-results/ allure-report || true",
     "cypress:open": "./node_modules/.bin/cypress open",
-    "cypress:run": "./node_modules/.bin/cypress open"
+    "cypress:run": "./node_modules/.bin/cypress run"
   },
   "author": "Frank Carrasco",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.5.1",
     "cypress": "^7.3.0"
   }
 }
