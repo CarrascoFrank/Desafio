@@ -1,8 +1,8 @@
 import * as getInvalidDataByCharacter from '../requests/GETInvalidDataByCharacters.request';
-import * as getInvalidDataByNumberPositiveOutOfRange from '../requests/GETInvalidDataByNumberPositiveOutOfRange.request';
-import * as getInvalidDataByNumberNegativeOutOfRange from '../requests/GETInvalidDataByNumberNegativeOutOfRange.request';
+import * as getInvalidDataByNumberPositiveOutOfRange from '../requests/GETInvalidDataByNumberPositiveOutOfRangePT.request';
+import * as getInvalidDataByNumberNegativeOutOfRange from '../requests/GETInvalidDataByNumberNegativeOutOfRangePT.request';
 
-describe("Cenarios de teste com valores invalidos", () => {
+describe("Cenarios de teste com valores invalidos na rota /", () => {
 
   it('Verificando o envio de caracteres com retorno de dado invalido (401)', () => {
     getInvalidDataByCharacter.characterInvalidData().should((response)=>{

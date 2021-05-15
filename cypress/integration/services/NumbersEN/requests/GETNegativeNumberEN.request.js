@@ -1,11 +1,11 @@
 /// <reference types="cypress" />
 
 
-function getPositiveNumber(){
+function getNegativeNumberEN(){
   return cy.request({
     method:'GET',
-    url: '/en/156',
+    url: '/en/-2021',
     failOnStatusCode: false,
   })
 }
-export{getPositiveNumber};
+export{getNegativeNumberEN};

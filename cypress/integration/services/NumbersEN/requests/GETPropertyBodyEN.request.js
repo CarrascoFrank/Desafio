@@ -1,11 +1,11 @@
 /// <reference types="cypress" />
 
 
-function getPositiveNumber(){
+function getPropertyBodyEN(){
   return cy.request({
     method:'GET',
-    url: '/en/156',
+    url: '/en/0',
     failOnStatusCode: false,
   })
 }
-export{getPositiveNumber};
+export{getPropertyBodyEN};
