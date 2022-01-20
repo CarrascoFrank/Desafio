@@ -44,7 +44,5 @@ Visualização de todos os cenarios executados
 ![Failure report](https://github.com/CarrascoFrank/DesafioDeliveryMuch/blob/master/img-reports/allure-report-all-suites.png)
 
 
-Repositório referente ao desafio da Delivery Much, onde foi feito o teste automatizado de uma API
-
 - Nome: Frank Carrasco
 - Email: carrasco.frank10@gmail.com
