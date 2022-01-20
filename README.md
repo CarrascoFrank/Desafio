@@ -1,4 +1,4 @@
-<h1 align="center">Desafio Delivery Much</h1>
+<h1 align="center">Desafio</h1>
 
 O desafio foi desenvolvido com Cypress e para realizar o report foi integrado com Allure.
 
